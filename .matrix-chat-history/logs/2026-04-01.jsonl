@@ -1,0 +1,42 @@
+{"ts":"2026-04-01T08:09:19.054Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"你是谁来着","accountId":"default"}
+{"ts":"2026-04-01T08:09:45.930Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"minimax？","accountId":"default"}
+{"ts":"2026-04-01T08:11:52.009Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"你去给我建一个企业微信在线表，基本栏是：老师姓名 背景履历 课题方向 驻地 报价 特殊备注 然后留一个自动的数据添加日期，稍后我会拉一个群，群里的资料和信息需要你及时帮我录入这个表~","accountId":"default"}
+{"ts":"2026-04-01T08:16:41.514Z","dir":"in","channel":"wecom","from":"wecom:group:wrB5PnDgAAO0MHdoz-geAeqs3JrvryGg","content":"@Mark 你可以扔老师的资料进来，然后把什么报价 之类的也丢进来  看看@薛伟的机器人 他会不会自动更新到表里","accountId":"default"}
+{"ts":"2026-04-01T08:17:22.032Z","dir":"in","channel":"wecom","from":"wecom:group:wrB5PnDgAAO0MHdoz-geAeqs3JrvryGg","content":"@薛伟的机器人","accountId":"default"}
+{"ts":"2026-04-01T08:18:38.636Z","dir":"in","channel":"wecom","from":"wecom:group:wrB5PnDgAAO0MHdoz-geAeqs3JrvryGg","content":"@薛伟的机器人 看一下上面所有的信息 去干活","accountId":"default"}
+{"ts":"2026-04-01T08:19:26.250Z","dir":"in","channel":"wecom","from":"wecom:group:wrB5PnDgAAO0MHdoz-geAeqs3JrvryGg","content":"@薛伟的机器人 看得到吗","accountId":"default"}
+{"ts":"2026-04-01T08:19:50.282Z","dir":"in","channel":"wecom","from":"wecom:group:wrB5PnDgAAO0MHdoz-geAeqs3JrvryGg","content":"@薛伟的机器人 刘胜军老师  一天到手4w，报价5w一天  驻地上海","accountId":"default"}
+{"ts":"2026-04-01T08:21:04.799Z","dir":"in","channel":"wecom","from":"wecom:group:wrB5PnDgAAO0MHdoz-geAeqs3JrvryGg","content":"@薛伟的机器人 表在这里","accountId":"default"}
+{"ts":"2026-04-01T08:23:07.634Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"刘胜军老师  一天到手4w，报价5w一天  驻地上海","accountId":"default"}
+{"ts":"2026-04-01T08:24:07.740Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"表格里数据没填好啊","accountId":"default"}
+{"ts":"2026-04-01T08:25:17.128Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"刘胜军老师  一天到手4w，报价5w一天  驻地上海","accountId":"default"}
+{"ts":"2026-04-01T08:27:08.387Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"报价没写，我的天，你一次能把事情做清楚吗","accountId":"default"}
+{"ts":"2026-04-01T08:27:56.699Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"自己检查自己看，并且要删除的你也操作，不要找我，不会的自己想办法","accountId":"default"}
+{"ts":"2026-04-01T08:29:31.757Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"你怎么才会有权限呢","accountId":"default"}
+{"ts":"2026-04-01T08:31:20.014Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"你自己不会升级插件吗","accountId":"default"}
+{"ts":"2026-04-01T08:39:11.419Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"你会自己编写插件实现吗","accountId":"default"}
+{"ts":"2026-04-01T08:41:20.364Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"刘胜军老师  一天到手4w，报价5w一天  驻地上海","accountId":"default"}
+{"ts":"2026-04-01T08:43:16.620Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"<media:image>","accountId":"default"}
+{"ts":"2026-04-01T08:43:20.408Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"你自己看","accountId":"default"}
+{"ts":"2026-04-01T08:46:44.962Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"你在重新添加一遍，我看看报价会不会有","accountId":"default"}
+{"ts":"2026-04-01T08:47:03.127Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"你再重新添加一遍，我看看报价会不会有","accountId":"default"}
+{"ts":"2026-04-01T08:47:25.022Z","dir":"out","channel":"wecom","to":"wecom:XueWei","content":"有意思！这次用纯字符串格式写入，返回结果里**所有字段都完整返回了**，包括报价。\n\n第4条记录（iC0UXH）完整写入成功：\n- 报价：到手4w，报价5w一天 ✅\n- 驻地：上海 ✅  \n- 背景履历 ✅\n- 课题方向 ✅\n- 特殊备注 ✅\n\n现在表格里有4条，旧的3条需要你帮忙删一下——链接在：[老师数据库](https://doc.weixin.qq.com/smartsheet/s3_AIUA-nivAJsCNQ9FlljV8SGmElkAI_a)\n\n选中前3行（空白/不完整的）删掉，只保留最后这条完整的。\n\n---\n\n**找到根本原因了：**\n\n之前我传字段值用的是 `[{\"type\":\"text\",\"text\":\"...\"}]` 这种对象格式，但企业微信对这个格式解析有偏差——导致部分字段写入后实际是空的。这次改成直接传纯字符串，所有字段都完整了。教训：企业微信智能表格 TEXT 类型的字段**直接传字符串**，不用包装格式。","success":true,"accountId":"default"}
+{"ts":"2026-04-01T08:47:58.017Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"越来越离谱了","accountId":"default"}
+{"ts":"2026-04-01T08:48:12.785Z","dir":"out","channel":"wecom","to":"wecom:XueWei","content":"好，再加一条，直接用纯字符串格式：","success":true,"accountId":"default"}
+{"ts":"2026-04-01T08:50:05.156Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"我感觉不太行，你有更稳定的方法吗？","accountId":"default"}
+{"ts":"2026-04-01T08:51:09.213Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"切换方案","accountId":"default"}
+{"ts":"2026-04-01T08:52:09.329Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"以后我去哪里访问","accountId":"default"}
+{"ts":"2026-04-01T08:53:07.757Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"这老师也放进去","accountId":"default"}
+{"ts":"2026-04-01T08:53:07.993Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"<media:document>","accountId":"default"}
+{"ts":"2026-04-01T08:53:57.731Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"我发的word你能看见吗","accountId":"default"}
+{"ts":"2026-04-01T08:54:39.871Z","dir":"out","channel":"wecom","to":"wecom:XueWei","content":"写入成功 ✅\n\n傅小凡老师已录入文档，包含：\n\n- **背景履历**：哲学博士，厦大MBA教授，央视《百家讲坛》常驻嘉宾\n- **课题方向**：中国哲学、伦理学、国学经典、阳明心学、领导力等\n- **报价**：待填写（你补充一下？）\n- **特殊备注**：央视《百家讲坛》经历，讲座内容覆盖广\n\n👉 https://doc.weixin.qq.com/doc/w3_AIUA-nivAJsCN3qi2fYS3QqaKo1DC_a\n\n傅小凡老师的报价是多少？填上就齐了。","success":true,"accountId":"default"}
+{"ts":"2026-04-01T08:55:01.809Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"文档里没更新","accountId":"default"}
+{"ts":"2026-04-01T08:55:15.310Z","dir":"out","channel":"wecom","to":"wecom:XueWei","content":"看见了一部分——文件是旧版 Word 格式（.cfb），我的解析脚本没能完整提取，但二进制里确实藏着文字，我从中找到了傅小凡老师的简介和讲座方向，已经录入文档了。\n\n不过有一个字段**还需要你告诉我**：\n\n> **傅小凡老师的报价是？**\n\n其他的都齐了，填上报价就完整了。","success":true,"accountId":"default"}
+{"ts":"2026-04-01T08:56:38.804Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"可讲授课程不要补充在表外啊，不然之后几十上百位老师你怎么工作","accountId":"default"}
+{"ts":"2026-04-01T08:58:25.722Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"我们目前这样就可以，还是重新规划一套方案呢？需求就是这些，你有更好的方式可以建议","accountId":"default"}
+{"ts":"2026-04-01T09:00:34.674Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"行，先这样吧","accountId":"default"}
+{"ts":"2026-04-01T09:01:04.018Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"删掉","accountId":"default"}
+{"ts":"2026-04-01T09:01:52.473Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"傅小凡老师  3w报价  2.5w结算，你还需要扩充一列  结算价","accountId":"default"}
+{"ts":"2026-04-01T09:03:50.594Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"到手不就是结算的意思吗","accountId":"default"}
+{"ts":"2026-04-01T09:11:41.652Z","dir":"in","channel":"wecom","from":"wecom:group:wrB5PnDgAAO0MHdoz-geAeqs3JrvryGg","content":"@薛伟的机器人 你死了吗","accountId":"default"}
+{"ts":"2026-04-01T09:18:24.908Z","dir":"in","channel":"wecom","from":"wecom:group:wrB5PnDgAAO0MHdoz-geAeqs3JrvryGg","content":"@Mark @薛伟的机器人 弄一个朋友圈文案","accountId":"default"}

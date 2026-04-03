@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>傅小凡 — 专家简介</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif; background: #F8F6F1; color: #1A1A2E; }
+  .container { max-width: 900px; margin: 0 auto; padding: 48px 24px; }
+
+  /* Header */
+  .header { display: flex; align-items: flex-start; gap: 32px; margin-bottom: 40px; }
+  .avatar { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid #2C4A7C; flex-shrink: 0; }
+  .header-info { flex: 1; }
+  .name { font-size: 32px; font-weight: 700; color: #1A1A2E; margin-bottom: 6px; }
+  .title-tag { display: inline-block; background: #2C4A7C; color: #fff; font-size: 13px; padding: 4px 14px; border-radius: 20px; margin-bottom: 12px; }
+  .meta-list { list-style: none; font-size: 14px; color: #555; line-height: 2; }
+  .meta-list strong { color: #2C4A7C; margin-right: 6px; }
+
+  /* Highlight banner */
+  .highlight-banner { background: linear-gradient(135deg, #2C4A7C, #3D5A8C); color: #fff; border-radius: 12px; padding: 20px 28px; margin-bottom: 36px; display: flex; gap: 40px; flex-wrap: wrap; }
+  .stat { text-align: center; }
+  .stat-value { font-size: 28px; font-weight: 700; display: block; }
+  .stat-label { font-size: 12px; opacity: 0.8; display: block; margin-top: 2px; }
+
+  /* Section */
+  .section { background: #fff; border-radius: 12px; padding: 28px 32px; margin-bottom: 20px; border: 1px solid #E8E4DC; }
+  .section-title { font-size: 17px; font-weight: 700; color: #2C4A7C; margin-bottom: 16px; padding-bottom: 10px; border-bottom: 2px solid #2C4A7C; }
+  .section p { font-size: 14px; line-height: 1.9; color: #333; }
+
+  /* Tags */
+  .tag-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tag { background: #EEF2F8; color: #2C4A7C; font-size: 13px; padding: 5px 14px; border-radius: 6px; }
+
+  /* Course grid */
+  .course-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .course-item { background: #F8F6F1; border-left: 3px solid #2C4A7C; padding: 8px 14px; font-size: 13px; color: #333; border-radius: 0 6px 6px 0; }
+
+  /* Callout */
+  .callout { background: #FFF8E7; border-left: 4px solid #E8A020; border-radius: 0 8px 8px 0; padding: 16px 20px; font-size: 14px; color: #5A4020; line-height: 1.8; margin-top: 16px; }
+
+  /* Footer */
+  .footer { text-align: center; font-size: 12px; color: #999; margin-top: 32px; padding-top: 16px; border-top: 1px solid #E8E4DC; }
+
+  @media (max-width: 600px) {
+    .header { flex-direction: column; align-items: center; text-align: center; }
+    .course-grid { grid-template-columns: 1fr; }
+    .highlight-banner { flex-direction: column; gap: 20px; align-items: center; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Header -->
+  <div class="header">
+    <img class="avatar" src="https://ai-tool-res.hailuoai.com/avator/a6f0bf0e06c8ac1e8e9e0efd4c7e21eb/thumbnail/t2r2_small.jpg" alt="傅小凡">
+    <div class="header-info">
+      <div class="name">傅小凡</div>
+      <span class="title-tag">厦门大学 MBA中心教授 · 博士生导师</span>
+      <ul class="meta-list">
+        <li><strong>驻地：</strong>厦门（厦大）</li>
+        <li><strong>报价：</strong>3万元 / 天</li>
+        <li><strong>结算价：</strong>2.5万元 / 天</li>
+        <li><strong>科研领域：</strong>中国哲学、伦理学、商业伦理、国学经典</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Stats Banner -->
+  <div class="highlight-banner">
+    <div class="stat">
+      <span class="stat-value">7年</span>
+      <span class="stat-label">央视百家讲坛主讲</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">200+</span>
+      <span class="stat-label">期节目播出</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">16+</span>
+      <span class="stat-label">可讲授主题</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">5本</span>
+      <span class="stat-label">专著出版</span>
+    </div>
+  </div>
+
+  <!-- Academic Background -->
+  <div class="section">
+    <div class="section-title">学术背景</div>
+    <p>哲学博士，厦门大学管理学院MBA中心教授，博士生导师。主要担任中国哲学、伦理学、美学、中国文化、商业伦理与企业社会责任、中国管理哲学等课程的教学工作。自2014年3月至2021年11月，在中央电视台科技频道《百家讲坛》栏目，主讲《大明疑案》《国宝迷踪》等系列节目二百多期，节目影响力广泛。近年来出版《大明疑案》《国宝迷踪》《晚明风云》《辉煌与悲情》等著作及译著《苏格拉底申辩》。</p>
+    <div class="callout">
+      ⭐ <strong>亮点：</strong>央视《百家讲坛》常驻嘉宾，公众知名度极高，适合高端论坛、企业内训、政府讲座等各类场景。
+    </div>
+  </div>
+
+  <!-- Research Areas -->
+  <div class="section">
+    <div class="section-title">研究领域</div>
+    <div class="tag-grid">
+      <span class="tag">中国哲学</span>
+      <span class="tag">伦理学</span>
+      <span class="tag">美学</span>
+      <span class="tag">中国文化</span>
+      <span class="tag">商业伦理</span>
+      <span class="tag">企业社会责任</span>
+      <span class="tag">国学经典</span>
+      <span class="tag">阳明心学</span>
+      <span class="tag">领导力</span>
+    </div>
+  </div>
+
+  <!-- Courses -->
+  <div class="section">
+    <div class="section-title">可讲授课程（16个主题）</div>
+    <div class="course-grid">
+      <div class="course-item">哲学与人生</div>
+      <div class="course-item">思辨与生活</div>
+      <div class="course-item">孔子与苏格拉底</div>
+      <div class="course-item">爱智·求知·批判——西方哲学</div>
+      <div class="course-item">传统文化中的管理哲学</div>
+      <div class="course-item">《孙子兵法》中的谋略与智慧</div>
+      <div class="course-item">《周易》的人生智慧</div>
+      <div class="course-item">《周易》的管理哲学</div>
+      <div class="course-item">国学智慧与领导艺术</div>
+      <div class="course-item">阳明心学与领导力提升</div>
+      <div class="course-item">辉煌与悲情——两宋史话</div>
+      <div class="course-item">禅的智慧</div>
+      <div class="course-item">教育之道——中国传统教育哲学</div>
+      <div class="course-item">中国古代艺术文化</div>
+      <div class="course-item">服饰文化与民族精神</div>
+      <div class="course-item">海商与倭寇</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    本资料由师资顾问部整理 · 2026年4月 · 如有更新恕不另行通知
+  </div>
+</div>
+</body>
+</html>

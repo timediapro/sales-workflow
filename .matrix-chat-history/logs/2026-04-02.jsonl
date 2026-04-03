@@ -1,0 +1,9 @@
+{"ts":"2026-04-02T06:46:57.216Z","dir":"in","channel":"openclaw-weixin","from":"o9cq801Bg4zRs25UcBBBEIJZFOv0@im.wechat","content":"hi","accountId":"0cf78d410052-im-bot"}
+{"ts":"2026-04-02T06:48:50.450Z","dir":"out","channel":"wecom","to":"wecom:XueWei","content":"Gateway restart restart ok (gateway.restart)\n微信连接成功，已绑定账号 0cf78d410052-im-bot，Gateway 重启完成\nReason: 微信个人账号连接成功，重启以加载新插件\nRun: openclaw doctor --non-interactive","success":true,"accountId":"default"}
+{"ts":"2026-04-02T06:48:54.817Z","dir":"in","channel":"openclaw-weixin","from":"o9cq801Bg4zRs25UcBBBEIJZFOv0@im.wechat","content":"hi","accountId":"0cf78d410052-im-bot"}
+{"ts":"2026-04-02T06:49:51.120Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"现在🆗了吗","accountId":"default"}
+{"ts":"2026-04-02T07:15:53.196Z","dir":"out","channel":"wecom","to":"wecom:XueWei","content":"傅小凡老师一页纸材料 PDF 版本 👆","success":true,"accountId":"default"}
+{"ts":"2026-04-02T07:16:48.454Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"全是乱码，哥","accountId":"default"}
+{"ts":"2026-04-02T07:20:52.217Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"word呢","accountId":"default"}
+{"ts":"2026-04-02T07:22:29.689Z","dir":"in","channel":"wecom","from":"wecom:XueWei","content":"我意思你可以给我一个word版的吗","accountId":"default"}
+{"ts":"2026-04-02T07:25:56.027Z","dir":"out","channel":"wecom","to":"wecom:XueWei","content":"傅小凡老师 Word 版👆（直接用 Word 打开即可，中文正常显示）","success":true,"accountId":"default"}
